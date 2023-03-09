@@ -1,0 +1,205 @@
+
+header{
+    position: sticky;
+    top: 0;
+    background: rgb(255, 200, 0);
+    width: auto;
+    height: 100px;
+}
+
+nav{
+    text-align: center;
+    margin-top: -3em;
+}
+
+nav a{
+    color: rgb(25, 14, 238);
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+}
+
+nav a:hover{
+    color: rgb(26, 7, 165);
+    transform:scale(1.3);
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30em;
+    margin-right: 30em;
+}
+
+h1{
+    font-size: 2.5em;
+    color: indianred;
+    margin-left: 1em;
+    padding:0.5em;
+ 
+}
+
+section{
+    margin-left: 40px;
+}
+
+#histoire{
+    margin-top: 30px;
+    margin-right: 30em;
+}
+
+#histoire h2{
+    margin-bottom: 1em;
+}
+
+#histoire span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#culture{
+    margin-top: 30px;
+    margin-right: 30em;
+}
+
+#culture h2{
+    margin-bottom: 1em;
+}
+
+
+h3{
+    font-family: kalam;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 140, 0);
+    margin-top: 2em;
+}
+
+main .image{
+    padding-left: 9em;
+    
+}
+
+.image h4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    margin-left: -6em;
+    /*text-align: center;*/
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 500px;
+    margin: 4em 2em 0 2em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: rgb(208, 246, 246); 
+}
+
+main .animation{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-right: 20em;
+    padding-left: 20em;
+    margin-left: 11em;
+    margin-bottom: 2em;
+}
+
+article figure{
+    margin: auto;
+}
+
+article .image1{
+    margin-left: -5em;
+    
+}
+
+article .image2{
+    margin-left: -11.5em;
+}
+
+.video h4{
+    margin-top: -2em;
+    margin-left: -2em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.video video{
+    margin-top: 2em;
+    margin-left: -3em;
+    border: 0.4em solid rgb(217, 223, 239);
+    border-radius: 0.9em;
+}
+
+section div {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.image1{
+    width: 60%;
+    height: 280px;
+    /*margin-left: -10em;*/
+    border: 0.4em solid rgb(217, 223, 239);
+    border-radius: 0.9em;
+    object-fit: cover;
+  
+}
+
+.image2{
+    width: 200%;
+    height: 280px;
+    /*margin-left: -10em;*/
+    border: 0.4em solid rgb(217, 223, 239);
+    border-radius: 0.9em;
+    object-fit: cover;
+}
+
+.image3{
+    width: 70%;
+    height: 280px;
+    margin-left: -7em;
+    border: 0.4em solid rgb(217, 223, 239);
+    border-radius: 0.9em;
+    object-fit: cover;
+}
+
+
+footer{
+    background: rgb(255, 200, 0);
+    width: auto;
+    height: 170px;
+    
+}
+
+h5{
+    margin-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+footer a{
+    justify-content: space-around;
+    text-decoration: none;
+    margin-left: 10em;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(11, 11, 203);
+}
+
+.informations p{
+    margin-left: 55em;
+    margin-top: 2em;
+}

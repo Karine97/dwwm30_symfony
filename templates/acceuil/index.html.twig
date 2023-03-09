@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AcceuilController!{% endblock %}
+
+{% block body %}
+
+           <section id="histoire">
+                    <h2>La petite histoire des autocollants</h2>
+                    <p>Les stickers, en français nous préférerons le mot <span>autocollants</span>, 
+                    naissent au début des années 1960. A cette époque, relativement récente, 
+                    l'industrie papetière s'offre les capacités techniques de fabriquer 
+                    à moindre coût des supports auto-adhésifs modernes, efficaces et disponibles en masse. 
+                    Par conséquent, les autocollants prennent rapidement le pas, 
+                    avec le concours de l'industrie d'impression et ses moyens de diffusion, 
+                    sur les bonnes vieilles <span>décalcomanies</span>.</p>
+                </section>
+
+                <section id="culture">
+                <h2>Les autocollants dans la culture populaire aujourd'hui</h2>
+                <p>Aujourd’hui, les autocollants se présentent sous de nombreuses formes, tailles, couleurs et designs différents. 
+                    Ils peuvent être utilisés pour toutes sortes, telles que des décorations, des instructions, des étiquettes, 
+                    sur le frigo, des éléments de maketing ou simplement pour personnaliser votre ordinateur portable ou votre téléphone. </p>
+                </section>
+
+                <h3>Des stickers faciles à poser, éphémères, sans résidu et réutilisables !</h3>
+
+                <section class="image"> 
+                    <article>
+                        <figure>
+                            <h4>Stickers Humour</h4> 
+                            <div> 
+                                <img class="image1" src="{{ asset('img/Sticker_0_presentation.jpeg') }}" alt="stickers humoristique">
+                            </div>
+                        </figure>
+                        
+                        <figure> 
+                            <h4>Stickers Voyage</h4>
+                            <div> 
+                                <img class="image2" src="{{ asset('img/Sticker_5_valise1.jpeg') }}" alt="stickers de Voyage">
+                            </div>
+                        </figure>
+
+                        <figure> 
+                            <h4>Stickers Muraux</h4>
+                            <div> 
+                                <img class="image3" src="{{ asset('img/Sticker_0_1_presentation.jpeg') }}" alt="stickers muraux">
+                            </div>
+                        </figure>
+                    </article>
+                </section>
+                <section class="animation">
+                    <article class="video">
+                        <figure> 
+                            <h4>Vidéo animé</h4>
+                            <div> 
+                                <video autoplay loop muted src="ressources/sticker.mp4"></video>
+                            </div>
+                        </figure>
+                    </article>
+                </section>
+
+{% endblock %}

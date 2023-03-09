@@ -4,16 +4,49 @@
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
+        <link rel="stylesheet" href="{{ asset('css/stylesAccueil.css') }}">
 
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
     <body>
+        <header>
+            <h1>CooLStikers</h1>
+            <nav>
+                
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="pageProduits.html">Nos produits</a></li>
+                    <li><a href="pageInscription.html">S'inscrire</a></li>
+                    <li><a href="pageConnexion.html">Connexion</a></li>  
+                    <li><a href="pagePanier.html">Panier</a></li>
+                </ul>
+            </nav>
+        </header>
+ 
         {% block body %}{% endblock %}
     </body>
+    <div class="container">
+         <footer class="informations">
+            <section class="col-2">
+                <h5>Informations Générales</h5>
+                    <a class="lien" href="pageEnConstruction.html">Qui sommes-nous ?</a>
+                    <a class="lien" href="pageEnConstruction.html">Mentions légales</a>
+                    <a class="lien" href="pageEnConstruction.html">Conditions générales d'utilisation</a>
+                    <a class="lien" href="pageEnConstruction.html">Conditions générales de vente</a>
+                    <a class="lien" href="pageEnConstruction.html">Nous contacter</a>
+                    <a class="lien" href="pageEnConstruction.html">Suivez-nous</a>
+            </section>
+        
+            <p>&copy; CooLStikers tous droits réservés</p>
+        </footer>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
 </html>
